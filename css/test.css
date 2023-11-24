@@ -1,0 +1,161 @@
+header{
+	width: 100%;
+	background: black;
+	height: 50px;
+}
+html {
+  scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+     background:#2a3235 ;
+     color: #30D5C8 ;
+
+    }
+P {
+    text-align: center
+    font-size :30px;
+    font-family:Arial,serif;
+    font-weight:bold;
+    width:80%;
+    height:100px;
+    text-align:left;
+    text-indent:20px;
+    }
+header{
+    display:flex;
+    justify-content:center;
+}
+
+.intro{
+    max-height:100vh;
+    overflow:hidden;
+}
+
+
+.video{
+    position:absolute;
+    padding-bottom:20%;
+
+}
+
+.video_media{
+    position:absolute;
+    height:auto;
+    top:0;
+    left:0;
+}
+.nacinka{
+        margin-top:1300px;
+
+}
+
+.logo, .menu1{
+    margin-left:15px;
+    vertical-align:middle;
+   display: inline-block;
+}
+.menu1 li{
+    margin-left:15px;
+   display:inline-block;
+   vertical-align:middle;
+}
+.menu1 a{
+    vertical-align:middle;
+    font-family:Arial;
+    font-size:15px;
+    color:white;
+    text-decoration:none;
+}
+.logo {
+    color: #30D5C8 ;
+    font-family:Bodoni mt black;
+    vertical-align:middle;
+}
+.panel {
+    text-align: center;
+    font-family: var(--font-roboto-condensed),var(--font-open-sans),sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 100%;
+
+}
+
+.card-img{
+    border-radius:20px;
+}
+.btn-keeper{
+    margin-top:20px;
+    test-align:center;
+}
+.btn{
+    background-color:black;
+    text-decoration:none;
+    padding:7px 12px;
+    color:white;
+    border-radius:10px;
+    transition:background-color 0.2s linear;
+}
+.btn:hover{
+    background:green;
+}
+.card{
+    color: black ;
+    margin-top:50px;
+    background-color:grey;
+    width:400px;
+    border-radius:20px;
+    padding:20px;
+    text-align: center;
+    box-shadow:10px 10px 20px #434040;
+    margin-left:30px;
+}
+
+.card-title{
+     margin-top :20px;
+     font-size:25px;
+     font-weight:500;
+}
+.ptyf{
+    font-size:30px;
+    font-weight:1000;
+    margin-top:10px;
+
+}
+.all{
+    display:flex;
+    justify-content:center;
+
+}
+.all1{
+    display:flex;
+    justify-content:center;
+    margin-top:20px;
+}
+.12{
+    margin-top:100px;
+
+ }
+footer{
+    background-color: #000;
+    background-position: 0 100%;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    height: 500px;
+    position: relative;
+    width: 100%;
+}
+.noga{
+    margin-top:20px;
+    color:white;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding-top: 20px;
+    width: 200px;
+}
